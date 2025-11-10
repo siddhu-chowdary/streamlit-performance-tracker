@@ -1,0 +1,30 @@
+column,description
+event_id,Unique ID for each event
+event_timestamp,ISO timestamp of event (local site time)
+event_date,Event date (YYYY-MM-DD)
+event_type,"Type of event: crossover, link_click, signup, improvement"
+state,US state (always 'Kansas')
+city,City within Kansas
+zip,ZIP code within Kansas
+user_id,Pseudonymous user identifier
+session_id,Session identifier
+traffic_source,High-level traffic source
+utm_source,UTM source (nullable)
+utm_medium,"UTM medium (e.g., cpc, social, organic)"
+utm_campaign,UTM campaign
+referrer_domain,Referrer domain or 'direct'
+landing_page,Landing page
+page_path,Page path
+device_type,Device type
+browser,Browser
+gclid,Google Ads click ID (nullable)
+ip_hash,Hashed IP surrogate
+is_new_user,Is this the user's first seen day?
+signup_plan,Chosen plan at signup (signup rows)
+consent_marketing,Marketing consent at signup (signup rows)
+a1c_baseline,Baseline A1c (signup/improvement rows)
+a1c_current,Current A1c (signup/improvement rows)
+weight_baseline_kg,Baseline weight kg (signup/improvement rows)
+weight_current_kg,Current weight kg (signup/improvement rows)
+medications_reduced,Medications reduced? (improvement rows)
+retention_status,Retention status (improvement rows)
